@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "983445799713",
+    "project_id": "mininews-d1159",
+    "storage_bucket": "mininews-d1159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983445799713:android:3ea7caa39520fcfe5a3460",
+        "android_client_info": {
+          "package_name": "com.example.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983445799713-22a8l61gknlfplb6qpda3s8g3f5r23ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI6ECdSYRtP3-IG85J8150sonveobYlkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983445799713-22a8l61gknlfplb6qpda3s8g3f5r23ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
