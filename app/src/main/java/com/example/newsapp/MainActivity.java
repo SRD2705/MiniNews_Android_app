@@ -91,6 +91,11 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
             case R.id.settings:
                 Toast.makeText(this, "Settings Clicked", Toast.LENGTH_SHORT).show();
                 break;
+
+            case R.id.about:
+                Intent intent_about = new Intent(MainActivity.this,AboutActivity.class);
+                startActivity(intent_about);
+                break;
             case R.id.logout:
                 auth.signOut();
                 Intent intent = new Intent(MainActivity.this,SignInActivity.class);
@@ -146,6 +151,7 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
             @Override
             public void onFailure(Call<NewsModal> call, Throwable t) {
                 Toast.makeText(MainActivity.this, "Uh!!\nIt's taking time\nWe are working on it", Toast.LENGTH_SHORT).show();
+                getNews(category);
             }
         });
     }
